@@ -12,6 +12,6 @@ printf ("Digite a sua peso: /n");
 scanf ("%.2f", &peso);
 printf ("Digite a sua altura: /n");
 scanf ("%.2f", &altura);
-printf("Sua idade é xx anos, seu peso é yy kilos e sua altura é 22 metros.")
+printf("Sua idade = %d\nSeu peso %.2f\n Sua altura %.2f", ano,peso,altura);
 return 0;
 }
