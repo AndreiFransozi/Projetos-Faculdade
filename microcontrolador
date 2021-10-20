@@ -1,13 +1,9 @@
 // Declaração das configurações e funcionalidades do PIC.
 #include "config.h"
-#define
-#define
-#define
-#define
-#define
-#define
-#define
+#include "adc.h"
+#include "lcd.h"
 #include "pwm.h"
+#include "timers.h"
 #include "usart.h"
 #include <stdlib.h>		// comando ftoa().
 #include <stdio.h>		// comando sprintf().
