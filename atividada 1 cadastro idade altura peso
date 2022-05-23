@@ -3,15 +3,15 @@
 #include <locale.h>
 int idade;
 float peso;
-float altura;
+int altura;
 int main(){
 setlocale(LC_ALL, "Portuguese");
 printf ("Digite a sua idade: /n");
-scanf ("%d", &ano);
+scanf ("%d", &idade);
 printf ("Digite a sua peso: /n");
-scanf ("%.2f", &peso);
+scanf ("%d", &peso);
 printf ("Digite a sua altura: /n");
 scanf ("%.2f", &altura);
-printf("Sua idade = %d\nSeu peso %.2f\n Sua altura %.2f", ano,peso,altura);
+printf("Sua idade = %d\nSeu peso %d\n Sua altura %.2f",idade,peso,altura);
 return 0;
 }
