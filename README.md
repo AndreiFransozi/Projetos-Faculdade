@@ -1,1 +1,1 @@
-O projeto utilizando api no android studio com java
+O projeto de app de lanches utilizando api no android studio com java
